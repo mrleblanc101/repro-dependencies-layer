@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@iconify-json/material-symbols": "^1.2.8",
+    "@nuxt/eslint": "latest",
+    "@nuxt/fonts": "^0.10.2",
+    "@nuxt/icon": "^1.8.2",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@pinia/nuxt": "^0.7.0",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@vueuse/core": "^11.3.0",
+    "@vueuse/nuxt": "^11.3.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwind-merge": "^2.5.5",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "typescript": "^5.7.2",
+    "vite-plugin-eslint2": "^5.0.3",
+    "vite-svg-loader": "^5.1.0"
+  },
+  "devDependencies": {
+    "nuxt": "^3.14.1592",
+    "vue": "latest"
+  },
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+}
